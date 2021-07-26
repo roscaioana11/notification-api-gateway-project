@@ -14,6 +14,6 @@ public class TestWSController {
 
     @GetMapping
     void sendws(){
-        notificationService.send("hello");
+        notificationService.send("test","hello");
     }
 }

@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
 public class NotificationService {
     private final SimpMessagingTemplate messagingTemplate;
 
-    public void send(Object message) {
+    public void send(String topic, Object message) {
         log.info("Sending " + message);
-        messagingTemplate.convertAndSend("student.add", message);
+        messagingTemplate.convertAndSend(topic, message);
     }
 }

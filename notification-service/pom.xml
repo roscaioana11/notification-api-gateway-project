@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.fasttrackit.curs16</groupId>
     <artifactId>notification-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>notification-service</name>
     <description>Notification Service</description>
     <properties>
@@ -82,5 +82,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/bulzanstefan/notification-service</url>
+        </repository>
+    </distributionManagement>
 
 </project>

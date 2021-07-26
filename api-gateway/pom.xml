@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.fasttrackit.curs16</groupId>
     <artifactId>api-gateway</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>api-gateway</name>
     <description>API Gateway</description>
     <properties>
@@ -65,5 +65,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/bulzanstefan/api-gateway</url>
+        </repository>
+    </distributionManagement>
 
 </project>

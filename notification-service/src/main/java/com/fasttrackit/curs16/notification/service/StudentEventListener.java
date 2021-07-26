@@ -15,6 +15,6 @@ public class StudentEventListener {
     @RabbitListener(queues = "#{studentQueue.name}")
     void processStudentEvent(Student event) {
         log.info("Received event " + event);
-        notificationService.send(event);
+        notificationService.send("student",event);
     }
 }
