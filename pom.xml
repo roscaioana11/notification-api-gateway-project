@@ -19,12 +19,12 @@
         <module>notification-service</module>
     </modules>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/ioanarosca/reference-project</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>github</id>-->
+<!--            <name>GitHub Packages</name>-->
+<!--            <url>https://maven.pkg.github.com/ioanarosca/reference-project</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
 </project>
